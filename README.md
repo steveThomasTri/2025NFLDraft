@@ -53,3 +53,12 @@ Changing the Drafted (tm/rnd/yr) to isDrafted
 I do nott care in what round they are drafted, although it is good idea for a future project.  I changed the column header to isDrafted.  If there is information in a cell, the value changes to 1, otherwise 0.  Basically True or False.  This is where the loc function comes into play.  It filters based on whether the cell is NaN.  Then eveything else becomes a 1.  
 
 When the scraping happens, there were some rows that had the headings repeated, so thos rows needed to be dropped as well.  Also, if a row doesn't have a height or a weight, that will needs to be dropped.  We might need those numbers to make our mode.  So to recap, They must have a height and weight recorded, and also compete in at least one combine event.  
+
+At this point, there were 7949 rows, so I just did a count on all of the rows that have a hypnen in their height and it verified to the exact number.  As a checkpoint, i made the following file:
+
+File: drafted_2000_2024-prospectswithnoheightremoved.csv
+
+This has been fun project so far.  There is a lot more exploring to do and a lot of directions of where this could go next.  For now, let's get our model of Drafted(Y/N). :blush:
+
+
+
