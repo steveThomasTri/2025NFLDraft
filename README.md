@@ -142,3 +142,7 @@ Now that we got our results, what can we learn from this process?  You really ha
 - How about those that didn't participate in a combine event?  What percentage got drafted and what can we use to boost the accuracy numbers up?  What factors can we use for those that didn't participate in a combine event?
 
 There might be more questions coming as this is an ongoing project in preparation for the 2026 NFL Draft.  
+
+# Hyperparemeter Tuning 4/30/25
+
+There is a new notebook called Hyperparameter Tuning1.ipynb.  
